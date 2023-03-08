@@ -1,7 +1,6 @@
 import type { Component } from 'solid-js';
 import { Delete, Check } from '../assets';
 
-
 interface Props {
   index: number;
   name: string;
@@ -11,7 +10,6 @@ interface Props {
 }
 
 export const Todo: Component<Props> = (props: Props) => {
-
 
   return (
     <div class='flex w-full max-w-[600px] p-4 border-t-[1px] border-solid border-white'>

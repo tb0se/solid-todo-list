@@ -2,7 +2,6 @@ import { For } from 'solid-js';
 import type { Accessor, Setter, Component } from 'solid-js';
 import { Todo } from './Todo';
 
-
 interface Props {
   todoList: { name: string, done: Accessor<boolean>, setDone: Setter<boolean> }[];
   removeTodo: (index: number) => void;
